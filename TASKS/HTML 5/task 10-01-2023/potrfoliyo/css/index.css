@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#nav{
+    height: 100vh;
+    width: 20%;
+    float: left;
+    background-color:coral;
+    position:fixed;
+    top:00px;
+}
+#nav .photo{
+    height: 270px;
+    width: 200px;
+}
+#nav .photo img{
+    height: 200px;
+    width: 200px;
+    border: 15px solid brown;
+    border-radius: 50%;
+    margin: 30% 0 0 17%;
+}
+ul{
+    margin-top: 50px;
+}
+ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    transition:0.1s ease;
+}
+ul li a:hover{
+    color: white;
+}
+#main{
+    width: 80%;
+    float: right;
+
+}
+#about{
+    height: 80vh;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.61);
+}
+#about h1{
+    margin: 5% 0 0 10%;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif
+}
+#about h1 .span1{
+    color: coral;
+}
+#about h2{
+    margin:0 0 0 10%;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif
+}
+#about h3{
+    margin: 2% 0 0 10%;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif
+}
+#about h3 .email{
+    color: coral;
+}
+#about p{
+    margin: 5% 10% 0 10%;
+    font-size: 20px;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Ubuntu', sans-serif
+}
+#about .icons{
+    margin: 5% 0 0 10%;
+}
+#about .icons i{
+    font-size: 25px;
+    padding: 15px 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+}
+#about .icons i:hover{
+    background-color:coral;
+}
+
+
+#experience{
+    height: 80vh;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.61);
+}
+#experience h1{
+    margin: 5% 0 0 10%;
+    font-size: 80px;
+    /* font-family: 'Oswald', sans-serif */
+    font-family: 'Teko', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+#experience h2{
+    margin:2% 0 0 10%;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif
+}
+#experience h3{
+    margin:0 0 0 10%;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif
+}
+#experience .para{
+    margin: 2% 10% 0 10%;
+}
+#experience p .prj{
+    color: coral;
+    font-weight: bold;
+}
+
+#experience p{
+    margin: 50px 100px 0 50px;
+    font-size: 20px;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Ubuntu', sans-serif
+}
+#experience .icons{
+    margin: 50px 0 0 50px;
+}
+#experience .icons i{
+    font-size: 25px;
+    padding: 15px 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+}
+#experience .icons i:hover{
+    background-color:coral;
+}
+
+
+
+#education{
+    height: 110vh;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.61);
+}
+#education h1{
+    margin: 5% 0 0 10%;
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif   
+}
+#education h2{
+    margin:3% 0 0 10%;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#education b{
+    margin-left: 80%;
+    font-size: 20px;
+    color: coral;
+    font-family: 'Sofia Sans', sans-serif;
+}
+#education h3{
+    font-size: 25px;
+    margin: 0 0 0 10%;
+}
+
+#education p{
+    margin: 1% 0 0 10%;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif
+}
+
+#skill{
+    height: 90vh;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.61);
+}
+#skill h1{
+    margin: 5% 0 0 10%;
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif 
+}
+#skill h2{
+    margin:3% 0 0 10%;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+#skill h3{
+    margin:0 0 0 10%;
+}
+#skill h3 i{
+    font-size: 40px;
+    margin: 10px;
+}
+#skill h4{
+    margin:3% 0 -2% 10%;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+#skill ul li
+{
+    text-align: left;
+    margin-left: 9%;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif
+}
+#skill ul li i{
+    margin-right: 10px;
+}
+
+
+#interest{
+    height: 70vh;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.61);
+}
+#interest h1{
+    margin: 5% 0 0 10%;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif 
+}
+#interest p{
+    margin: 5% 10% 0 10%;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif
+}
+
+#award{
+    height: 80vh;
+    width: 80%;
+    float: right;
+    /* border-bottom: 3px solid rgba(0, 0, 0, 0.5); */
+    color: rgba(0, 0, 0, 0.61);
+}
+#award h1{
+    margin: 5% 0 0 10%;
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif   
+}
+#award ol{
+    margin-top: 5%;
+}
+#award ol li{
+    text-align: left;
+    margin-left: 10%;
+    font-size: 20px;
+    line-height: 50px;
+    list-style-type: disc;
+    font-family: 'Ubuntu', sans-serif
+}

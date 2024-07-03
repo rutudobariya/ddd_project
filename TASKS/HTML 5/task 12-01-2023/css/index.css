@@ -1,0 +1,878 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.search input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+}
+
+.icons i {
+    margin: 0 20px;
+    color: rgb(18, 73, 255);
+    font-size: 20px;
+}
+
+.icons a i {
+    text-decoration: none;
+}
+
+.icons .cart a{
+    color: rgb(18, 73, 255);
+    font-weight: bold;
+    font-size: 25px;
+}
+.icons i .value {
+    margin-left: 5px;
+    background-color: red;
+    padding: 2px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 3px;
+}
+
+
+nav {
+    height: 55px;
+    width: 100%;
+    background-color: rgb(58, 58, 201);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav .logo {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    /* border: 1px solid black; */
+    float: left;
+    align-items: center;
+}
+
+nav .logo i {
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+nav .logo h2 {
+    margin-left: 5%;
+}
+
+nav .navbar {
+    height: 100%;
+    width: 75%;
+    float: right;
+}
+
+nav .navbar ul {
+    text-align: center;
+}
+
+nav .navbar ul li {
+    display: inline-block;
+    margin-top: 1%;
+}
+
+nav .navbar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-family: 'Mukta', sans-serif;
+    transition: 1s ease;
+}
+
+nav .navbar ul li a:hover{
+    color: red;
+}
+
+nav .navbar ul li a select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+nav .navbar ul li a select option {
+    color: black;
+    text-align: center;
+}
+
+nav .navbar ul li .login {
+    background-color: red;
+    padding: 0px 20px;
+    transition: 1s ease;
+}
+
+nav .navbar ul li .login:hover{
+    color: black;
+}
+
+#slider {
+    width: 100%;
+    height: auto;
+}
+
+#slider .slide {
+    width: 100%;
+    height: 550px;
+}
+
+#slider .slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#dynamic {
+    width: 100%;
+    height: 510px;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#dynamic .leftpro {
+    width: 75%;
+    height: 95%;
+    margin: 10px;
+    /* background-color: antiquewhite; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#dynamic .leftpro .topbar {
+    width: 100%;
+    height: 15%;
+    background-color: lightgray;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+#dynamic .leftpro .topbar .upperleft {
+    width: 80%;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Mukta', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Sofia Sans', sans-serif; */
+    /* font-family: 'Teko', sans-serif; */
+}
+
+#dynamic .leftpro .topbar .upperright {
+    width: 20%;
+}
+
+#dynamic .leftpro .topbar .upperright button {
+    padding: 5px 20px;
+    margin: 18% 0 0 20%;
+    background-color: rgb(18, 73, 255);
+    border: none;
+    font-weight: bold;
+}
+
+#dynamic .rightpro {
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+}
+
+#dynamic .rightpro img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#dynamic .gsale {
+    width: 100%;
+    height: 82%;
+    /* background-color: cadetblue; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+}
+
+#dynamic .gsale .col1 {
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#dynamic .gsale .col1 img {
+    width: 100%;
+    height: 70%;
+}
+
+#dynamic .gsale .col1 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#dynamic .gsale .col1 h2 span {
+    text-decoration: line-through;
+}
+
+#dynamic .gsale .col1 a {
+    padding: 3px 8px;
+    line-height: 40px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+#dynamic .gsale .col2 {
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#dynamic .gsale .col2 img {
+    width: 100%;
+    height: 70%;
+}
+
+#dynamic .gsale .col2 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#dynamic .gsale .col2 h2 span {
+    text-decoration: line-through;
+}
+
+#dynamic .gsale .col2 a {
+    padding: 3px 8px;
+    line-height: 40px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+#dynamic .gsale .col3 {
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#dynamic .gsale .col3 img {
+    width: 100%;
+    height: 70%;
+}
+
+#dynamic .gsale .col3 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#dynamic .gsale .col3 h2 span {
+    text-decoration: line-through;
+}
+
+#dynamic .gsale .col3 a {
+    padding: 3px 8px;
+    line-height: 40px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+#dynamic .gsale .col4 {
+    height: 100%;
+    width: 100%;
+}
+
+
+#shirt {
+    width: 98.5%;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#shirt .topbar2 {
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: lightgray;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+}
+
+#shirt .topbar2 .upperleft {
+    width: 80%;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Mukta', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Sofia Sans', sans-serif; */
+    /* font-family: 'Teko', sans-serif; */
+}
+
+#shirt .topbar2 .upperright {
+    width: 20%;
+}
+
+#shirt .topbar2 .upperright button {
+    padding: 5px 20px;
+    margin: 12% 0 0 45%;
+    background-color: rgb(18, 73, 255);
+    border: none;
+    font-weight: bold;
+}
+
+#shirt .s-style {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#shirt .s-style .col5 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#shirt .s-style .col5 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#shirt .s-style .col5 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#shirt .s-style .col5 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#shirt .s-style .col6 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#shirt .s-style .col6 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#shirt .s-style .col6 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#shirt .s-style .col6 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#shirt .s-style .col7 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#shirt .s-style .col7 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#shirt .s-style .col7 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#shirt .s-style .col7 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#shirt .s-style .col8 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#shirt .s-style .col8 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#shirt .s-style .col8 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#shirt .s-style .col8 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+
+#best {
+    width: 98.5%;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#best .topbar3 {
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: lightgray;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+}
+
+#best .topbar3 .upperleft {
+    width: 80%;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#best .topbar3 .upperright {
+    width: 20%;
+}
+
+#best .topbar3 .upperright button {
+    padding: 5px 20px;
+    margin: 12% 0 0 45%;
+    background-color: rgb(18, 73, 255);
+    border: none;
+    font-weight: bold;
+}
+
+#best .all-style {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#best .all-style .col9 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#best .all-style .col9 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#best .all-style .col9 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#best .all-style .col9 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#best .all-style .col10 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#best .all-style .col10 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#best .all-style .col10 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#best .all-style .col10 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#best .all-style .col11 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#best .all-style .col11 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#best .all-style .col11 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#best .all-style .col11 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#best .all-style .col12 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#best .all-style .col12 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#best .all-style .col12 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#best .all-style .col12 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#girls {
+    width: 98.5%;
+    height: 510px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#girls .topbar4 {
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: lightgray;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+}
+
+#girls .topbar4 .upperleft {
+    width: 80%;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#girls .topbar4 .upperright {
+    width: 20%;
+}
+
+#girls .topbar4 .upperright button {
+    padding: 5px 20px;
+    margin: 12% 0 0 45%;
+    background-color: rgb(18, 73, 255);
+    border: none;
+    font-weight: bold;
+}
+
+#girls .girl-style {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#girls .girl-style .col13 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#girls .girl-style .col13 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#girls .girl-style .col13 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#girls .girl-style .col13 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#girls .girl-style .col14 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#girls .girl-style .col14 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#girls .girl-style .col14 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#girls .girl-style .col14 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#girls .girl-style .col15 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#girls .girl-style .col15 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#girls .girl-style .col15 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#girls .girl-style .col15 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#girls .girl-style .col16 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#girls .girl-style .col16 img {
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+#girls .girl-style .col16 h2 {
+    margin-top: 5%;
+    color: green;
+}
+
+#girls .girl-style .col16 button {
+    padding: 3px 8px;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+    color: white;
+    background-color: rgb(0, 0, 31);
+}
+
+.up {
+    width: 98.5%;
+    height: 250px;
+    border-radius: 10px;
+    display: grid;
+    border-bottom: 1px solid darkblue;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+}
+
+.col17 {
+    width: 100%;
+    height: 100%;
+}
+
+.col17 h2 {
+    font-size: 30px;
+    margin: 20px 50px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.col17 ul {
+    margin: 20px 50px;
+}
+
+.col17 ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.col18 {
+    width: 100%;
+    height: 100%;
+}
+
+.col18 h2 {
+    font-size: 30px;
+    margin: 20px 50px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.col18 ul {
+    margin: 20px 50px;
+}
+
+.col18 ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.col19 {
+    width: 100%;
+    height: 100%;
+}
+
+.col19 h2 {
+    font-size: 30px;
+    margin: 20px 50px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.col19 ul {
+    margin: 20px 50px;
+}
+
+.col19 ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.col19 ul li a {
+    text-decoration: none;
+}
+
+.col20 h2 {
+    margin: 20px 50px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.col20 p {
+    margin-left: 16%;
+    font-family: 'Mukta', sans-serif;
+}
+
+.col20 p span {
+    color: green;
+    font-weight: bold;
+}
+
+footer .down {
+    height: 10%;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 3%;
+    text-align: center;
+}
