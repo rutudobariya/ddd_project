@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg squre</title>
+    <style>
+        #a1{
+            margin: 50px;
+            float: left;
+            border: 10px solid red;
+            border-radius: 20px;
+        }
+        #a1 svg{
+            height: 400px;
+            width: 400px;
+            background-color: black;
+            border-radius: 10px;
+        }
+        #a2{
+            float: right;
+            margin: 150px;
+        }
+        #a2 svg{
+            height: 210px;
+            width: 200px;
+            background-color:orangered;
+            border: 10px solid black;
+            border-radius: 20px;
+        }
+        #a3{
+            transform: translate(550px,-420px);
+        }
+        #a3 svg{
+            height: 300px;
+            width: 300px;
+            background-color: darkblue;
+            border: 10px solid lime;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="a1">
+        <svg>
+            <rect rx="10" ry="10" x="100" y="100" width="200" height="200" fill="red" stroke="white" stroke-width="10" >
+        </svg>
+    </div>
+    <div id="a2">
+        <svg>
+            <polygon points="100,10,40,198,190,78,10,78,160,198"
+            fill="orange" stroke="black" stroke-width="10" fill-rule="evenodd">
+        </svg>
+    </div>
+    <div id="a3">
+        <svg>
+            <polygon points="150,70,250,220,50,220" fill="red" stroke="green" stroke-width="10">
+        </svg>
+    </div>
+</body>
+</html>
