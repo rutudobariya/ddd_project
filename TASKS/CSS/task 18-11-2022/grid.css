@@ -1,0 +1,448 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 80px;
+    padding-top: 20px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 100px;
+    padding: 20px;
+    color: white;
+}
+.col1{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.col1 img{
+    height: inherit;
+    width: inherit;
+    transition: 1s;
+}
+.col1 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col1 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col1 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col2{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.col2 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col2 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col2 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col2 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col3{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+}
+.col3 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col3 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col3 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.col3 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col3 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col4{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+}
+.col4 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col4 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col4 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col4 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col4 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col5{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.col5 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col5 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col5 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col5 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col6{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.col6 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col6 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col6 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col6 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col7{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.col7 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col7 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col7 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col7 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col8{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.col8 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col8 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col8 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col8 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col9{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.col9 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col9 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col9 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col9 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+.col10{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.col10 img{
+    height: 200px;
+    width: 100%;
+    transition: 1s;
+}
+.col10 img:hover{
+    height: 210px;
+    width: 110%;
+}
+.col10 input{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.col10 input:hover{
+    background-color:coral ;
+    border: 2px solid coral;
+}
+
+@media(max-width:1200px){
+    h2{
+        padding-top: 15px;
+        font-size: 70px;
+    }
+}
+
+@media(max-width:992px){
+    h2{
+        padding-top: 10px;
+        font-size: 60px;
+    }
+    .main{
+        grid-template-columns:repeat(4,1fr);
+    }
+}
+
+@media(max-width:980px){
+    .main{
+        grid-template-columns:repeat(4,1fr);
+    }
+}
+
+@media(max-width:768px){
+    h2{
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    .main{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+@media(max-width:576px){
+    h1{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .main{
+        grid-template-columns:repeat(3,1fr);
+        grid-row-gap: 70px;
+    }
+    .col1 img{
+        height: 150px;
+    }
+    .col1 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col2 img{
+        height: 150px;
+    }
+    .col2 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col3 img{
+        height: 150px;
+    }
+    .col3 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col4 img{
+        height: 150px;
+    }
+    .col4 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col5 img{
+        height: 150px;
+    }
+    .col5 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col6 img{
+        height: 150px;
+    }
+    .col6 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col7 img{
+        height: 150px;
+    }
+    .col7 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col8 img{
+        height: 150px;
+    }
+    .col8 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col9 img{
+        height: 150px;
+    }
+    .col6 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .col10 img{
+        height: 150px;
+    }
+    .col10 h1{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+}
+
+@media(max-width:480px){
+    h2{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .main{
+        grid-template-columns:repeat(1,1fr);
+        grid-row-gap: 110px;
+    }
+    .col1{
+        height: 300px;
+    }
+    .col1 img{
+        height:300px
+    }
+    .col2{
+        height: 300px;
+    }
+    .col2 img{
+        height:300px
+    }
+    .col3{
+        height: 300px;
+    }
+    .col3 img{
+        height:300px
+    }
+    .col4{
+        height: 300px;
+    }
+    .col4 img{
+        height:300px
+    }
+    .col5{
+        height: 300px;
+    }
+    .col5 img{
+        height:300px
+    }
+    .col6{
+        height: 300px;
+    }
+    .col6 img{
+        height:300px
+    }
+    .col7{
+        height: 300px;
+    }
+    .col7 img{
+        height:300px
+    }
+    .col8{
+        height: 300px;
+    }
+    .col8 img{
+        height:300px
+    }
+    .col9{
+        height: 300px;
+    }
+    .col9 img{
+        height:300px
+    }
+    .col10{
+        height: 300px;
+    }
+    .col10 img{
+        height:300px
+    }
+}

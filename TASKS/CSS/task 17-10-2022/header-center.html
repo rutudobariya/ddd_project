@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header-center</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-image: url('disney-hoystar-1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header{
+            height: 100vh;
+            width: 100%;
+        }
+        .logo{
+            height: 150px;
+            width: 19.6%;
+            float: left;
+        }
+        .logo img{
+            height:150px;
+            width: 100%;
+        }
+        .search{
+            height: 50px;
+            width: 100%;
+            background-color: aliceblue;
+        }
+        .s1{
+            margin: 16px;
+            margin-left: 30%;
+            padding-left: 2px;
+        }
+        nav{
+            height: 100px;
+            width: 100%;
+            background-image: radial-gradient(black,blue);
+        }
+        nav ul{
+            float: left;
+        }
+        nav ul li{
+            display: inline-block;
+            font-size: 30px;
+            margin-top: 30px;
+            margin-left:90px;
+            font-weight: bolder;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .text{
+            position: absolute;
+            top:350px;
+            left: 600px;
+            text-align: center;
+            /* border: 2px solid black; */
+            border-radius: 5px;
+            background-color: rgba(128, 128, 128, 0.541);
+        }
+        .text input{
+            margin-top:10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 5px;
+        }
+
+        .text button{
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="disney+hotstar-1.jpg">
+        </div>
+        <div class="search">
+            <input class="s1" type="text" placeholder="search">
+            <input class="s2" type="button" value="search">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Movies</a></li>
+                <li><a href="">Web series</a></li>
+                <li><a href="">Registr</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="text">
+            <input type="text" placeholder="id"><br><br>
+            <input type="password" placeholder="password"><br><br>
+            <button>Login</button>
+        </div>
+    </header>
+</body>
+</html>

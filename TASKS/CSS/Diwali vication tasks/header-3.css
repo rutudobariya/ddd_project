@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(43, 43, 43, 0.5);
+    background-image: url('img-2 h.3.jpg');
+}
+header{
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    height: 100px;
+    width: 10%;
+    float: left;
+}
+.logo img{
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    padding-top: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    color: white;
+}
+.image{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-shadow: 5px 5px 10px 5px;
+}
+.image img{
+    height: 500px;
+    width: 500px;
+}
+.textbox{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    color: white;
+}
+.textbox h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+.textbox p{
+    font-family: 'Changa', sans-serif;
+    line-height: 40px;
+}
+.textbox button{
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10%;
+}
+.textbox button:hover{
+    background-color: rgb(56, 55, 55);
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+.box1{
+    height: 250px;
+    width: 250px;
+    border: 10px double rgba(245, 245, 245, 0.733);
+    background-color: rgba(128, 128, 128, 0.534);
+    border-radius: 10%;
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    text-align: center;
+}
+.box1 h2{
+    padding: 30px;
+    font-family: 'Krona One', sans-serif; 
+}
+.box2 h2{
+    padding: 30px;
+    font-family: 'Krona One', sans-serif; 
+}
+.box1 p{
+    font-family: 'Righteous', cursive; 
+}
+.box1 a{
+    line-height: 70px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Playfair Display SC', serif; 
+}
+.box1 a:hover{
+    font-weight: bolder;
+    color:aqua
+}
+.box2 p{
+    font-family: 'Righteous', cursive;
+
+}
+.box2{
+    height: 250px;
+    width: 250px;
+    border: 10px double rgba(245, 245, 245, 0.733);
+    background-color: rgba(128, 128, 128, 0.534);
+    border-radius: 10%;
+    position: absolute;
+    top: 350px;
+    right: 410px;
+    text-align: center;
+}
+.box2 a{
+    line-height: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Playfair Display SC', serif; 
+}
+.box2 a:hover{
+    font-weight: bolder;
+    color:aqua
+}

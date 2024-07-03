@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:linear-gradient(rgba(1, 5, 1, 0.493),rgba(255, 184, 52, 0.404)), url('img-1 h.8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 140vh;
+    width: 100%;
+}
+.logo{
+    height: 200px;
+    width: 20%;
+    float: left;
+}
+
+.logo img{
+    height: 200px;
+    width: 100%;
+}
+nav{
+    height: 100px;
+    width: 80%;
+    float: right;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+    color: whitesmoke;
+}
+
+.text{
+    height:500px;
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+}
+
+.text span{
+    font-size: 100px;
+    letter-spacing: 15px;
+    border-bottom: 5px solid black;
+
+}
+
+.text p{
+    padding-top: 50px;
+    color: whitesmoke;
+    line-height: 30px;
+}
+
+.buttons{
+    height: 500px;
+    width: 5%;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+.buttons ul{
+    float: right;
+}
+
+.buttons ul li{
+    list-style: none;
+}
+
+.buttons ul li a i{
+    margin-top: 37px;
+    margin-right: 25px;
+    font-size: 60px;
+    text-decoration: solid;
+    color: rgb(255, 249, 249);
+}
+
+.box-1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box-1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.box-1 input{
+    position: absolute;
+    top: 186px;
+    left: 19px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.box-2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 500px;
+    left: 310px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box-2 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.box-2 input{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    top: 187px;
+    left: 40px;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.box-3{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 500px;
+    left: 570px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box-3 img{
+    height:200px;
+    width: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.box-3 input{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 185px;
+    left: 30px;
+    font-weight: bold;
+}
+
+.box-4{
+    height:200px;
+    width: 200px;
+    position: absolute;
+    top: 500px;
+    left: 820px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box-4 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.box-4 input{
+    cursor: pointer;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+    top: 185px;
+    left: 20px;
+}

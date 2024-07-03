@@ -1,0 +1,93 @@
+body{
+    background-image: url('Black-lamborghini-wallpaper-HD.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+}
+
+.logo{
+    height: 50px;
+    width: 15%;
+    float: left;
+}
+
+.logo p{
+    height: 50px;
+    width: 100%;
+    color: antiquewhite;
+    font-size: 30px;
+    padding: 40px;
+    font-family: "Audiowide", sans-serif;
+}
+
+nav{
+    height: 50px;
+    width: 85%;
+    float: right;
+}
+
+nav ul{
+    float: right;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a conctact us{
+    color: goldenrod;
+}
+
+.textbox{
+    height: 150px;
+    width: 40%;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+.textbox h1{
+    color: goldenrod;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 3px 3px 15px gray;
+    line-height: 50px;
+}
+
+.textbox p{
+    line-height: 40px;
+    color: rgb(255, 140, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+.textbox button{
+    margin-top: 20px;
+    height: 22px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.textbox button:hover{
+    background-color: rgb(0, 0, 0);
+    color:darkblue;
+}

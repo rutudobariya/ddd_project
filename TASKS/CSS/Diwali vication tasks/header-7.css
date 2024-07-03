@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:linear-gradient(rgba(83, 215, 248, 0.5),rgba(247, 127, 247, 0.5)), url('img-1 h.7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    height: 150vh;
+    width: 100%;
+}
+
+.logo{
+    height: 80px;
+    width: 25%;
+    float: left;
+    background-color: rgba(255, 94, 0, 0.4);
+}
+
+.logo h1{
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 100px;
+    color: white;
+}
+
+.logo h1:hover{
+    text-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+nav{
+    height: 80px;
+    width: 75%;
+    float:right;
+    background-color: rgba(255, 94, 0, 0.4);
+}
+
+nav ul{
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover{
+    background-color: brown;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text{
+    height: 200px;
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.text h2{
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Nabla', cursive/ */
+    /* font-family: 'Playfair Display SC', serif; */
+}
+
+.text button{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.text button:hover{
+    background-image: linear-gradient(orange,purple);
+    color: whitesmoke;
+}
+
+.nav-2{
+    margin-left: 15%;
+    height: 60px;
+    width: 70%;
+    position: absolute;
+    top: 450px;
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.nav-2 ul{
+
+}
+
+.nav-2 ul li{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.nav-2 ul li a{
+    text-decoration: none;
+    margin-left: 70px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-2 ul li a:hover{
+    color:red;
+    font-weight: bold;
+}
+
+.box{
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(orange,purple);
+    position: absolute;
+    top:510px;
+}
+.box input{
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 20px;
+}
+.box button{
+    margin-left: 50px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.box button:hover{
+    background-color: aquamarine;
+    font-weight: bold;
+    color: darkorange;
+}
+
+.heading{
+    height: 30px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    top:650px;
+    text-align: center;
+}
+
+.heading{
+    height: 50px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.image-1{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 750px;
+    left: 100px;
+}
+
+.image-1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.image-1 h3{
+    text-align: center;
+    font-family: 'Rightexous', cursive;
+}
+
+.image-2{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 750px;
+    left: 300px;
+}
+
+.image-2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.image-2 h3{
+    text-align: center;
+    font-family: 'Rightexous', cursive;
+}
+
+.image-3{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 750px;
+    left: 500px;
+}
+
+.image-3 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.image-3 h3{
+    text-align: center;
+    font-family: 'Rightexous', cursive;
+}
+
+.image-4{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 750px;
+    left: 700px;
+}
+
+.image-4 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.image-4 h3{
+    text-align: center;
+    font-family: 'Rightexous', cursive;
+}
+
+.image-5{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 750px;
+    left: 900px;
+}
+
+.image-5 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.image-5 h3{
+    text-align: center;
+    font-family: 'Rightexous', cursive;
+}
+
+.image-6{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 750px;
+    left: 1100px;
+}
+
+.image-6 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.image-6 h3{
+    text-align: center;
+    font-family: 'Rightexous', cursive;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header-3</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color: aquamarine;
+        }
+
+        header{
+            height: 100px;
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        .logo{
+            height: 100px;
+            width: 10%;
+            /* border: 1px solid red; */
+            float: left;
+        }
+
+        .logo img{
+            height: 100px;
+            width: 100%;
+        }
+
+        .search{
+            height: 40px;
+            width: 90%;
+            float: left;
+            background-image: linear-gradient(rgb(255, 102, 0),white);
+            /* border: 1px solid black; */
+        }
+
+        .search input{
+            margin-top:10px;
+            height: 20px;
+            border: 1px solid rgb(233, 74, 0);
+        }
+
+        .marquee{
+            height: 15px;
+            width: 90%;
+            float: left;
+            padding-bottom: 2px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        nav{
+            height: 100px;
+            width: 100%;
+            /* background-color: darkgray; */
+            background-image: radial-gradient(white,green);
+        }
+
+        nav ul{
+            list-style:none;
+        }
+
+        nav ul li{
+            display: inline-block;
+            font-size:20px;
+            padding-top: 10px;
+            padding-left:40px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="k-1.jpg">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="search" style="margin-left:40%;">
+            <input type="button" value="search">
+
+        </div>
+        <div class="marquee">
+            <marquee>India's largest online selling platform</marquee>
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="" style="padding-left:180px;">Home</a></li>
+                <li><a href="">Best Sellers</a></li>
+                <li><a href="">Mobiles</a></li>
+                <li><a href="">Electronics</a></li>
+                <li><a href="">Customer Servive</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

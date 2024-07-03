@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(243, 237, 237, 0.5),rgba(0,0,0,0.5)), url('lec-2\ img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col1{
+    padding: 50px;
+}
+.col1 h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.col1 a{
+    font-size: 30px;
+    color: crimson;
+    text-decoration: none;
+    text-decoration: overline
+}

@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url('img-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+.logo h3{
+    height: 100px;
+    width: 100%;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    height:100px;
+    width: 80%;
+    float: right;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right:20px;
+    margin-top: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    color: black;
+    font-family: 'Krona One', sans-serif;
+    transition: 1s;
+}
+nav ul li a:hover{
+    color:white;
+    border-bottom: 5px solid white;
+}
+.a1{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 18.5%;
+    transition: 2s;
+}
+.a1:hover{
+    box-shadow: 6px 6px 10px 6px white;
+}
+.a1 img{
+    height: 250px;
+    width: 250px;
+}
+.a2{
+    height: 250px;
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    left: 40%;
+}
+.a2 p{
+    font-family: 'Raleway', sans-serif;
+}
+.a2 h2{
+    font-size: 45px;
+    line-height: 60px;
+}
+.a2 a{
+    line-height: 60px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: black;
+    background-color: aquamarine;
+    font-family: 'Righteous', cursive;
+}
+.a2 a:hover{
+    color: red;
+    border:2px solid aquamarine ;
+}
+.b1 h1{
+    position: absolute;
+    top: 650px;
+    left: 10%;
+    font-family: 'Rye', cursive;
+}
+.s1{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    margin-top: 85px;
+}
+.s1 .b2{
+    height: 200px;
+    width: 20%;
+    margin-left: 20%;
+}
+.s1 .b2 img{
+    height: 200px;
+    width: 80%;
+    transition: 2s;
+}
+.s1 .b2 img:hover{
+    height: 250px;
+    width: 100%;
+}
+.s1 .b2 h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.s1 .b3{
+    height: 200px;
+    width: 20%;
+}
+.s1 .b3 img{
+    height: 200px;
+    width: 80%;
+    transition: 2s;
+}
+.s1 .b3 img:hover{
+    height: 250px;
+    width: 100%;
+}
+.s1 .b3 h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.s1 .b4{
+    height: 200px;
+    width: 20%;
+}
+.s1 .b4 img{
+    height: 200px;
+    width: 80%;
+    transition: 2s;
+}
+.s1 .b4 img:hover{
+    height: 250px;
+    width: 100%;
+}
+.s1 .b4 h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.s2{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(white,green,orange);
+}
+.s2 .c1{
+    float: left;
+
+}
+.s2 .c2{
+    height: 300px;
+    width: 40%;
+    font-size: 25px;
+    float: right;
+    padding-top: 100px;
+}
+.s2 .c2 h3{
+    font-size: 35px;
+}
+.s2 .c2 p{
+    line-height: 80px;
+    font-size: 15px;
+}
+.s3{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(orange,white);
+}
+.g1 h1{
+    padding-left: 41%;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(orange,white,orange);
+}
+.s3 .g2{
+    width: 80%;
+    font-size: 30px;
+    padding: 20px;
+    margin-left:10% ;
+    line-height: 100px;
+    font-family: 'Righteous', cursive;
+}
+.s3 .g2 span{
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin:20px;
+}
+.s3 .g2 span:hover{
+    color: whitesmoke;
+    background-color:teal;
+    border: 5px solid teal;
+}
+.s4{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(white,aqua);
+}
+.d1 h1{
+    padding-left: 82px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Audiowide', cursive;
+}
+.s4 .d2{
+    height: 250px;
+    width: 25%;
+}
+.s4 .d2 img:hover{
+    border: 10px double red;
+}
+.s4 .d2 img{
+    height:250px ;
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    transition: 2s;
+}
+.s4 .d2 h1{
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+} 
+.s4 .d3{
+    height: 250px;
+    width: 25%;
+}
+.s4 .d3 img{
+    height:250px ;
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    transition: 2s;
+}
+.s4 .d3 img:hover{
+    border: 10px double red;
+}
+.s4 .d3 h1{
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+}
+.s4 .d4{
+    height: 250px;
+    width: 25%;
+}
+.s4 .d4 img{
+    height:250px ;
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    transition: 2s;
+}
+.s4 .d4 img:hover{
+    border: 10px double red;
+}
+.s4 .d4 h1{
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+}
+.s5{
+    height: 80vh;
+    width: 100%;
+    background-color: aqua;
+}
+.s5 .e1{
+    padding-top:40px ;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.s5 .e2{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 50px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.s5 .e2 .box1{
+    height: 300px;
+    width: 50%;
+    border-right: 2px solid white;
+}
+.s5 .e2 .box1 h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    border-bottom: 2px solid white;
+}
+.s5 .e2 .box1 p{
+    padding: 20px 50px 20px 50px;
+}
+.s5 .e2 .box2{
+    height: 300px;
+    width: 50%;
+    border-left: 2px solid white;
+}
+.s5 .e2 .box2 h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    border-bottom: 2px solid white;
+}
+.s5 .e2 .box2 h2{
+    padding-left: 50px;
+}
+.f1{
+    height: 60px;
+    width: 100%;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.f1 ul li{
+    padding-top:10px;
+    font-size: 10px;
+    display: inline-block;
+}
+.f1 ul li a{
+    color: black;
+    padding: 20px;
+}
+.f1 p{
+    padding-top: 10px;
+    font-size: 10px;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.col1{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 40px;
+    background-image: linear-gradient(pink,red,darkred,teal,aqua,skyblue);
+}
+.col2{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 40px;
+    background-image: radial-gradient(pink,red,darkred,teal,aqua,skyblue);
+}
+.col3{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 40px;
+    background-image: conic-gradient(pink,red,darkred,teal,aqua,skyblue);
+    border-radius: 30%;
+}
+.col4{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 40px;
+    background-image: conic-gradient(pink 0deg,pink 60deg,red 60deg,red 120deg,darkred 120deg, darkred 180deg,teal 180deg, teal 240deg,aqua 240deg, aqua 300deg,skyblue 300deg, skyblue 360deg);
+    opacity: 0.6;
+}

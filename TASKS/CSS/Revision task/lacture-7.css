@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.col1{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    float: left;
+    box-shadow: 5px 5px 10px 5px black;
+}
+.col2{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    float: right;
+    transition: 3s;
+}
+.col2 i{
+    margin: 100px;
+}
+.col2:hover{
+    background-color:red ;
+    box-shadow: 5px 8px 10px 10px;
+}
+.col3{
+    height: 300px;
+    background-color: blueviolet;
+    clear: both;
+}
+.col3 li{
+    padding: 10px;
+    text-align: center;
+    list-style:decimal-leading-zero;
+}

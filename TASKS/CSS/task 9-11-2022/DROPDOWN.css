@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightgreen;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+}
+nav ul li{
+    height: 40px;
+    width: 130px;
+    font-weight: bold;
+    border: 1px solid black;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+    background-color: darkolivegreen;
+}
+nav ul li:hover{
+    background-color:yellow;
+    border-right:5px solid blue;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+    color: black;
+}
+nav li ul{
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+.html{
+    width: 105px;
+    position: absolute;
+    right: 268px;
+    top: 38px;
+}
+.html li{
+    display: none;
+}
+ ul li ul li:hover .html li{
+    display: block;
+    border-right: 2px solid red;
+    margin-top: 5px;
+}
+ ul li ul li .html li:hover a{
+    
+ }
+.css{
+    width: 105px;
+    position: absolute;
+    right: 270px;
+    top: 82px;
+}
+.css li{
+    display: none;
+}
+ul li ul li:hover .css li{
+    display: block;
+    border-right: 2px solid red;
+}
+
+.java{
+    width: 105px;
+    position: absolute;
+    right: 270px;
+    top: 122px;
+}
+.java li{
+    display: none;
+}
+ul li ul li:hover .java li{
+    display: block;
+    border-right: 2px solid red;
+}
+
+.bs{
+    width: 105px;
+    position: absolute;
+    right: 270px;
+    top: 202px;
+}
+.bs li{
+    display: none;
+}
+ul li ul li:hover .bs li{
+    display: block;
+    border-right: 2px solid red;
+}

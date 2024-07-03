@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(black,gray,black);
+}
+.col1{
+    height: 100vh;
+    width: 50%;
+    float: left;
+}
+.col1 .a1{
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    border: 10px double red;
+    border-radius: 20px;
+    transform: translate(140px,50px);
+
+}
+.col1 .a1 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.col1 .a2{
+    height: 150px;
+    width: 150px;
+    transform: translate(170px,-200px);
+
+}
+.col1 .a2 img{
+    height: 300px;
+    width: 200px;
+    border: 8px double darkgreen;
+    border-radius: 20px;
+}
+.col1 .a3{
+    height: 180px;
+    width: 180px;
+    background-color:rgba(144, 238, 144, 0.534);
+    border: 8px double black;
+    border-radius: 20px;
+    padding: 8px;
+    transform: translate(120px,100px);
+}
+.col1 .a3 p::first-letter{
+    font-size: 30px;
+    color: brown;
+
+}
+
+.col2{
+    height: 100vh;
+    width: 49%;
+    float: right;
+}
+.col2 .b1{
+    height: 150px;
+    width: 150px;
+    background-color:yellowgreen;
+    border: 10px double red;
+    border-radius: 20px;
+    transform: translate(370px,50px);
+
+}
+.col2 .b1 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.col2 .b2{
+    height: 150px;
+    width: 150px;
+    transform: translate(160px,-200px);
+
+}
+.col2 .b2 img{
+    height: 300px;
+    width: 200px;
+    border: 8px double darkgreen;
+    border-radius: 20px;
+}
+.col2 .b3{
+    height: 180px;
+    width: 180px;
+    background-color:rgba(128, 128, 128, 0.507);
+    border: 8px double black;
+    border-radius: 20px;
+    padding: 8px;
+    transform: translate(360px,100px);
+}
+.col2 .b3 p::first-letter{
+    font-size: 30px;
+    color: brown;
+
+}
+section img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 200px;
+    left: 44%;
+    transition: 2s;
+}
+section img:hover{
+    box-shadow: 5px 5px 10px 7px whitesmoke;
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.col1{
+    height: 100vh;
+    width: 100%;
+}
+.col1 h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px green;
+}
+.col1 .slider{
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+    animation: slid;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes slid{
+    0%{
+        background-image: url('lac-12\ img-1.jpg');
+        background-size: cover;
+    }
+    20%{
+        background-image: url('lac-12\ img-2.jpg');
+        background-size: cover;
+    }
+    40%{
+        background-image: url('lac-12\ img-3.jpg');
+        background-size: cover;
+    }
+    60%{
+        background-image: url('lac-12\ img-4.jpg');
+        background-size: cover;
+    }
+    80%{
+        background-image: url('lac-12\ img-5.jpg');
+        background-size: cover;
+    }
+    100%{
+        background-image: url('lac-12\ img-5.jpg');
+        background-size:cover;
+    }
+
+}
+.col2{
+    height: 300px;
+    width: 100%;
+}
+h2{
+    text-align: right;
+    padding: 10px 30px 10px 10px;
+    border-right: 10px double red;
+    margin: 20px;
+    background-color: lightcoral;
+}
+h2::before{
+    content: "lorem";
+}
+.col3{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
+.col3 .d1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+.col3 .d2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transform: translate(100px,-100px);
+}
+.col3 .d3{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    transform: translate(200px,-200px);
+}
+.col4{
+    height: 300px;
+    width: 300px;
+}
+.col4 .e1{
+    height: ;
+}

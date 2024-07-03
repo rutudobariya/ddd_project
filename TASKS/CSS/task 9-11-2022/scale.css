@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.col1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaleX(2);
+}
+.col2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaleY(2);
+    margin-left: 30px;
+}
+.col3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaleX(3);
+}
+.col4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.col5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.col6{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaley(2);
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+.col7{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+}
+.col8{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+.col9{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+.col10{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+.col11{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaleX(2);
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+.col12{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaleX(1);
+    position: absolute;
+    top: 400px;
+    left: 450px;
+
+}
+.col13{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaley(1);
+    position: absolute;
+    top: -50px;
+    left: 600px;
+
+}
+.col14{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaleX(1);
+    position: absolute;
+    top: 450px;
+    left: 1000px;
+
+}
+.col15{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    transform: scaleX(2);
+    position: absolute;
+    top: 250px;
+    right: 10px;
+
+}

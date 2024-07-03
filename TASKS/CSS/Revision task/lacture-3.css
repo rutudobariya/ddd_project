@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-shadow: 10px 10px 10px red;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+.box{
+    height: 330px;
+    width: 1150px;
+    border: 20px solid red;
+    margin:50px 100px 100px 100px;
+}
+.box1{
+    height: 290px;
+    width: 25%;
+    border-right: 10px double black;
+    float: left;
+    padding: 50px;
+    background-color: aquamarine;
+}
+.box2{
+    height: 290px;
+    width: 25%;
+    border-right: 10px double black;
+    float: left;
+    padding: 50px;
+    overflow: hidden;
+    background-color: aqua;
+    color: red;
+    font-weight: bold;
+}
+.box3{
+    height: 290px;
+    width: 25%;
+    border-right: 10px double black;
+    float: left;
+    padding: 50px;
+    overflow: scroll;
+    background-color:lightblue;
+}
+.box4{
+    height: 290px;
+    width: 25%;
+    float: left;
+    padding: 50px;
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    height: 200px;
+    width: 400px;
+    margin: 100px;
+    margin-top: 200px;
+    margin-left:450px ;
+}
+div::after{
+    content:"";
+    height: 200px;
+    width: 0px;
+    background-color: blueviolet;
+    display: block;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    transition: 3s;
+}
+div:hover::after{
+    width: 400px;
+    opacity:0.5;
+}
+h1{
+    position: relative;
+    padding-top: 75px;
+    text-align: center;
+    font-size: 40px;
+    color: black
+    font-family: 'Orbitron', sans-serif;
+}

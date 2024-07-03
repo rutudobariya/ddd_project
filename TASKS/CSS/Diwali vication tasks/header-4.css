@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('img-2 h.4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 130px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.bar{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+.bar p{
+    height: 30px;
+    width: 70%;
+    color: white;
+    padding-top: 13px;
+    padding-left: 50px;
+    float: left;
+}
+.bar ul li{
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: rgb(233, 224, 224);
+}
+.logo{
+    height: 100px;
+    width: 30%;
+    float: left;
+}
+.logo img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 80px;
+    width: 40%;
+}
+nav{
+    height: 100px;
+    width: 55%;
+    float: right;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 15px;
+    /* padding-top: 20px; */
+} 
+nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.text{
+    height: 200px;
+    width: 30%;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.text p{
+    line-height: 40px;
+}
+.text h1{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.text input{
+    margin-top: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    background-color: rgb(187, 33, 33);
+}
+.text input:hover{
+
+    color: whitesmoke;
+    background-color: black;
+    /* border: 2px solid white; */
+}
+.mens{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+.mens img{
+    height: 200px;
+    width: 300px;
+}
+.mens img:hover{
+    box-shadow: 5px 5px 8px 5px ;x
+}
+.mens a{
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    font-family: 'Playfair Display SC', serif;
+}
+.womens{
+    height: 200px;
+    width: 300px;
+    position:absolute;
+    top: 400px;
+    right:100px;
+}
+.womens img{
+    height: 200px;
+    width: 300px;
+}
+.womens img:hover{
+    box-shadow: 5px 5px 8px 5px ;
+}
+.womens a{
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    font-family: 'Playfair Display SC', serif;
+}

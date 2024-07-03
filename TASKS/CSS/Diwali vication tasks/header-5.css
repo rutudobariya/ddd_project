@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+}
+.logo{
+    height: 100px;
+    width: 10%;
+    float: left;
+
+}
+
+.logo img{
+    height: 100px;
+    width: 100%;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+    color: whitesmoke;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 47, 47);
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.image img{
+    height: 300px;
+    width: 300px;
+    opacity: 0.3;
+}
+
+.image-1 {
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 380px;
+    left: 100px;
+}
+
+.image-1 img{
+    height: 200px;
+    width: 250px;
+}
+
+.image-1 h3{
+    color: whitesmoke;
+}
+
+.image-2{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 380px;
+    left: 400px;
+}
+
+.image-2 img{
+    height: 200px;
+    width: 250px;
+}
+.image-2 h3{
+    color: whitesmoke;
+}
+
+.image-3{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 380px;
+    left: 700px;
+}
+
+.image-3 img{
+    height: 200px;
+    width: 250px;
+}
+
+.image-3 h3{
+    color: whitesmoke;
+}
+
+.text{
+    height: 200px;
+    width: 30%;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.text h1{
+    color: goldenrod;
+    line-height: 30px;
+}
+
+.text p{
+    color: yellow;
+    padding-top: 30px;
+}
+
+.text input{
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid goldenrod;
+    background-color: black;
+    color: goldenrod;
+    padding: 5px;
+}
+.text input:hover{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+}

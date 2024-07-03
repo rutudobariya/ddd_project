@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover-button with a tag</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(57, 123, 126);
+        }
+        header{
+            height: 100px;
+            width: 100%;
+            /* border: 1px solid black; */
+            background-color: black ;
+        }
+        .logo{
+            height: 100px;
+            width: 10%;
+            float: left;
+        }
+        .logo img{
+            height: 100px;
+            width: 100px;
+            border-radius: 30px;
+        }
+        nav{
+            float: right;
+        }
+        nav ul{
+            float: right;
+        }
+        nav ul li{
+            display: inline-block;
+            margin: 33px;
+        }
+        nav ul li a{
+            font-size: 30px;
+            color: blue;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-decoration: none;
+        }
+        .text{
+            position: absolute;
+            top: 300px;
+            left: 500px;
+        }
+        .text h1{
+            font-size: 40px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .text p{
+            font-size: 20px;
+            line-height: 40px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .text a{
+            line-height: 40px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 3px solid black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 15%;
+            color: aliceblue;
+        }
+        .text a:hover{
+            background-color:brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="pikashow.png">
+        </div>
+        <nav>
+            <ul>
+            <li><a href="">Sports</a></li>
+            <li><a href="">Movies</a></li>
+            <li><a href="">Web series</a></li>
+            <li><a href="">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="text">
+        <h1>Picashow</h1>
+        <p>Watch latest movies & web series</p>
+        <a href="">Login</a>
+    </div>
+</body>
+</html>

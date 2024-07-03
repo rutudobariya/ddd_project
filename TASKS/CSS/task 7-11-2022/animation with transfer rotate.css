@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+div{
+    height: 100px;
+    width: 100px;
+    animation: rotate;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+@keyframes rotate{
+   0%{
+    transform:rotate(120deg);
+    position: absolute;
+    top: 50px;
+    left: 200px;
+   }
+   10%{
+    transform: rotate(240deg);
+    position: absolute;
+    top: 50px;
+    left: 500px;
+   }
+   20%{
+    transform: rotate(360deg);
+    position: absolute;
+    top: 50px;
+    left: 800px;
+   }
+   30%{
+    transform: rotate(480deg);
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+   }
+   40%{
+    transform: translate(600deg);
+    position: absolute;
+    top:250px;
+    left: 1100px;
+   }
+   50%{
+    transform: rotate(720deg);
+    position: absolute;
+    top: 450px;
+    left: 1100px;
+   }
+   60%{
+    transform: rotate(840deg);
+    position: absolute;
+    top: 450px;
+    left:800px;
+   }
+   70%{
+    transform: rotate(960deg);
+    position: absolute;
+    top: 450px;
+    left: 500px;
+   }
+   80%{
+    transform: rotate(1080deg);
+    position: absolute;
+    top: 450px;
+    left: 200px;
+   }
+   90%{
+    transform: rotate(1200deg);
+    position:absolute;
+    top:250px;
+    left: 200px;
+    }
+    100%{
+    transform:rotate(1320deg);
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    }
+}
