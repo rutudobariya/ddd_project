@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+#box{
+    width: 25%;
+    background-color: darkgoldenrod;
+    padding: 30px;
+    text-align: center;
+    transform: translate(500px,100px);
+    transition: 2s;
+}
+#box:hover{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px inset;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}

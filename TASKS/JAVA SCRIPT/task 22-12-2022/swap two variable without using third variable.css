@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(165deg,black,crimson,orange);
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 40px;
+}
+#box{
+    background-color: crimson;
+    width: 28%;
+    padding: 30px;
+    transform: translate(100px,100px);
+    text-align: center;
+}
+label{
+    font-weight: bolder;
+    color: white;
+}
+input{
+    width: 70%;
+    padding: 5px;
+}
+button{
+    width: 40%;
+    padding: 5px 20px;
+    transition: 0.5s ease;
+}
+button:hover{
+    background-color:springgreen;
+    color:orangered;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 20px;
+}

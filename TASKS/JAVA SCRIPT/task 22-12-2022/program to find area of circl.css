@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("circle\ trigonometry.jpg") no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-top: 5%;
+    color:orange;
+    /* background-color: black; */
+    padding: 10px;
+}
+#container{
+    text-align: center;
+    margin:10% 40%;
+    padding: 15px;
+    background-color: aliceblue;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px  gray;
+}
+label{
+    font-size: 23px;
+}
+input{
+    padding: 5px 20px;
+}
+span{
+    font-weight: bolder;
+}
