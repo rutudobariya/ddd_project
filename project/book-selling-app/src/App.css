@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* LAYOUT PAGE */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.offcanvas-body ul li a:hover {
+    color: black !important;
+}
+
+.fa-bars {
+    font-size: 1.5rem !important;
+}
+
+/* HOME PAGE */
+.card-header img {
+    height: 250px;
+    width: auto;
+}
+
+/* MANAGE BOOK */
+.fa-pencil,
+.fa-trash {
+    cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:576px) {
+    .managebook{
+        overflow-x:  visible !important;
+    }
+    .offcanvas{
+        width: 70% !important;
+    }
+}

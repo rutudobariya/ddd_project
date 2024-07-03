@@ -1,0 +1,51 @@
+{
+  "books": [
+    {
+      "name": "The God of Small Things",
+      "author": "Arundhati Roy",
+      "price": "252",
+      "photo": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTHucZhB9HKmdgH4zcJrwdcgZFNARIOo0GCzNPJMsm-8OxJg93g",
+      "link": "https://en.wikipedia.org/wiki/The_God_of_Small_Things",
+      "id": 1
+    },
+    {
+      "name": "The 4-Hour Workweek",
+      "author": "Timothy Ferriss",
+      "price": "449",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GrtwmO9FJTN1Yy6CIPG0aJ0RzxWEMFosN0BwejJcnrZtExOh",
+      "link": "https://en.wikipedia.org/wiki/The_4-Hour_Workweek",
+      "id": 2
+    },
+    {
+      "name": "The Lean Startup",
+      "author": "Eric Ries",
+      "price": "1799",
+      "photo": "https://m.media-amazon.com/images/I/51T-sMqSMiL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "link": "https://en.wikipedia.org/wiki/Lean_startup",
+      "id": 3
+    },
+    {
+      "name": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki and Sharon Lechte",
+      "price": "350",
+      "photo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSlrQfRuyGKdvR9r_1QROkXsmnX0sV_-XeEgKk0w80lEGql4GGg",
+      "link": "https://en.wikipedia.org/wiki/Rich_Dad_Poor_Dad",
+      "id": 4
+    },
+    {
+      "name": "The Millionaire Fastlane",
+      "author": " MJ DeMarco",
+      "price": "366",
+      "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcReqwYLA3ddJz9NfvOvRvg5Yd3yOf4IfYszo_kUQxJDWCI_ko2G",
+      "id": 5
+    },
+    {
+      "name": "The Intelligent Investor",
+      "author": " Benjamin Graham",
+      "price": "499",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9L2MUgzUoNXyqxHcEOHmkBSMTxaBLR7A0Ru1khp1E_SSCwKGn",
+      "link": "https://en.wikipedia.org/wiki/The_Intelligent_Investor",
+      "id": 6
+    }
+  ]
+}
